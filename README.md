@@ -1,0 +1,2 @@
+simple-resolution-prover
+========================
