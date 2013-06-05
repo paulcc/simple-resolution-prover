@@ -1,7 +1,8 @@
 simple-resolution-prover
 ========================
 
-h2. Building
+Building
+--------
 
 To compile
 
