@@ -20,7 +20,8 @@ OR you can use "ghci" on parts of this, eg
 Code has been tested with GHC 7.4.1, but doesn't use anything unusual so should work with most versions
 
 
-h2. Running
+Running
+-------
 
 Run the executable, or run "main" in ghci
 
@@ -28,7 +29,8 @@ By default, it runs the prover on the theorem in file "eg_two"
 
 
 
-h2. Reading the code
+Reading the code
+----------------
 
 Help yourselves! Feel free to raise questions in issues etc. 
 
