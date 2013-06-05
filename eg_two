@@ -1,0 +1,24 @@
+--
+-- The Florence's banana problem.
+--
+
+-- 1.Every female chimp can solve all problems. 
+forall X. fc(X) -> forall Y. p(Y) -> s(X,Y);
+
+-- 2.There is at least one problem. 
+exists X. p(X);
+
+-- 3.Every chimp which solves a problem, gets a banana. 
+forall X. forall Y. c(X) & p(Y) -> s(X,Y) -> b(X);
+
+-- 4. Every female chimp is a chimp
+forall X. fc(X) -> c(X) ;
+
+-- 5.Florence is a female chimp 
+fc(Florence);
+
+
+-- Test: Florence gets a banana
+Conclude b(Florence);
+
+
